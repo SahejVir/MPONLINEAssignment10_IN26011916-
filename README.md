@@ -62,7 +62,7 @@ Heart-Disease-Deployment/
 
 ### Root Health Check Endpoint
 
-- **URL:** `GET https://mponline-assignment-10-zqlt.onrender.com/`
+- **URL:** https://mponlineassignment10-in26011916-2.onrender.com/
 
 **Response:**
 
