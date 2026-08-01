@@ -18,7 +18,7 @@ def load_data():
         os.environ['KAGGLE_USERNAME'] = input("Kaggle Username: ")
         os.environ['KAGGLE_KEY'] = getpass.getpass("Kaggle API Key: ")
         
-        from kaggle.api.kaggle_api_extended import KaggleApi
+        from kaggle.api import KaggleApi
         api = KaggleApi()
         api.authenticate()
         api.dataset_download_files('johnsmith88/heart-disease-dataset', path='.', unzip=True)
